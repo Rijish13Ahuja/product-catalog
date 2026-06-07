@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Body background only — no min-height.
+
+  CSS "canvas background propagation" means body { background-color }
+  always paints the full viewport regardless of the body's actual height.
+  Adding min-height: 100vh is therefore unnecessary and harmful: it forces
+  the body to be at least 100vh tall, which creates empty scroll space below
+  pagination when page content is shorter than the viewport or when the
+  browser calculates element heights differently than expected.
+*/
+body {
+  background-color: #F9FAFB; /* Tailwind gray-50 */
+}
