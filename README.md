@@ -8,13 +8,13 @@ The application provides an Amazon-style browsing experience with dynamic filter
 
 ## Live Demo
 
-[Add Vercel URL Here]
+[https://product-catalog-omega-nine.vercel.app/]
 
 ---
 
 ## GitHub Repository
 
-[Add GitHub Repository URL Here]
+[https://github.com/Rijish13Ahuja/product-catalog]
 
 ---
 
@@ -360,7 +360,7 @@ src
 ## Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/Rijish13Ahuja/product-catalog>
 cd product-catalog-app
 ```
 
